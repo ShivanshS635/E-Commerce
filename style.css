@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: "Poppins", sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+li{
+    list-style: none;
+}
+
+.wrapper{
+    height: 100vh;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.container{
+    background-color: #f4f4f4;
+    height:100%;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header-delivery{
+    text-align:center;
+    background-color: #dbdb25;
+}
+
+.navbar{
+    background-color: rgb(49, 49, 83);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-text{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 12rem;
+}
+
+.logo-txt-down{
+    color: #dbdb25;
+}
+
+.logo-txt-up{
+    color: gainsboro;
+    font-size: large;
+}
+
+.nav-items{
+    display: flex;
+    gap: 15px;
+}
+
+.navleft{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.navleft-img{
+    object-fit: cover;
+    height: 50px;
+    width: 50px;
+}
+
+.navright{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding-right: 2rem;
+}
+
+.search-container {
+    position: relative;
+}
+
+.search-bar {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    width: 200px;
+    box-sizing: border-box;
+    font-size: 16px;
+    padding-right: 35px;
+}
+
+.search-icon {
+    position: absolute;
+    padding-top: 5px;
+    overflow: hidden;
+    right: 0px;
+    top: 50%;
+    height: 35px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transform: translateY(-50%);
+    background-color:rgb(229, 85, 33);
+    cursor: pointer;
+}
+
+.nav-items li:hover{
+    transition: 0.8s;
+    transform: scale(1.2);
+    background-color:aquamarine;
+}
+
+.login-btn{
+    width: fit-content;
+    border: 2px solid #dbdb25;
+    cursor: pointer;
+    background-color: #dbdb25;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+.login-btn:hover{
+    background-color: #f4f4f4;
+    border:2px solid #dbdb25;
+}
+
+.main-image{
+    width: 500px;
+    object-fit: cover;
+}
