@@ -136,3 +136,14 @@ li{
     width: 500px;
     object-fit: cover;
 }
+
+.img1{
+    width: 1200px;
+    object-fit: cover;
+}
+
+.img2{
+    padding: 50px;
+    object-fit: cover;
+    width: 1200px;
+}
